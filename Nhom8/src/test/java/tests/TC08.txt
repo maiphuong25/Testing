@@ -1,0 +1,17 @@
+Dear Ms. My,
+
+I have a question regarding Test Case TC08: "User can't login with an account that hasn't been activated."
+
+According to the test steps, I should create a new account without activating it, then try to log in and verify that the system prevents login for inactive accounts.
+
+However, on the actual website (http://railwayb2.somee.com), the system does not send any activation email after registration. This means I cannot reproduce the "inactive account" state as described in the test case.
+
+As a result, I'm unsure how to properly execute this test. I'm considering two possible approaches:
+
+Logging in with a newly registered account (even though there's no activation process) to see if the system allows access – however, I've already done this in Test Case 01.
+
+Intentionally entering incorrect login credentials to verify the error message – but this has already been covered in Test Case 03.
+
+Could you please clarify how I should proceed with Test Case 08 given the current limitations of the system? I’d like to ensure I'm following the intended testing approach and not duplicating what has already been tested.
+
+Thank you in advance for your guidance.
